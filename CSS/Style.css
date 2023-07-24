@@ -242,16 +242,14 @@ input[type=text]
 .Shop-now-link:visited{
     color:#fff;
     
-
-    /* Open colors */
-    background-color: #117420; 
+    background-color: #52140E; 
 }
 
 .Shop-now-link:hover,
 .Shop-now-link:active{
 
     /* Green 5 */
-    background-color: #51cf66;
+    background-color: #865b56;
 }
 
 
@@ -328,3 +326,91 @@ input[type=text]
 
 
 /* Section Feature */
+.section-feature{
+    margin:8.8rem auto 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:2.4rem;
+}
+.feature-cont{
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding:6.4rem;
+    
+
+    font-size: 1.8rem;
+}
+.feature-image-container img{
+    width:auto;
+}
+.feature-cont-heading{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.feature-post-head{
+    padding:1.8rem 2.4rem;
+}
+.check-icon{
+    color: #52140E;
+}
+.feature-cont ul{
+
+    padding:6.4rem 3.2rem 3.2rem 3.2rem;
+    list-style: none;
+    display: flex;
+
+    gap:2.4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.4rem;
+}
+.Order-Now
+{
+    padding: 3.2rem;
+}
+.Order-now-link{
+
+    padding:1.6rem 3.2rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 100px;
+
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:1.6rem;
+
+    transition: all 0.3s;
+
+}
+.Order-now-link:link,
+.Order-now-link:visited{
+    color:#fff;
+    
+
+    /* Open colors */
+    background-color: #52140E; 
+}
+
+.Order-now-link:hover,
+.Order-now-link:active{
+
+    /* Green 5 */
+    background-color: rgba(133, 27, 27, 0.719)
+}
+
