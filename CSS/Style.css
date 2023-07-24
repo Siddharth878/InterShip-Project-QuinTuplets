@@ -174,7 +174,7 @@ input[type=text]
 
 
 .Intro-head{
-    padding:11.2rem;
+    padding:3.2rem;
 
 
 
@@ -190,10 +190,86 @@ input[type=text]
     Font-weight:bold;
     line-height: 1.1;
     letter-spacing: -0.75px;
+
+    padding:3.2rem;
+    box-shadow:0 2.4rem 4.8rem rgba(0,0,0,0.75);
 }
 .Intro-hero-desc{
     font-size: 3.2rem;
     letter-spacing: 0.5px;
     font-weight:600;
     line-height: 1.4;
+}
+
+
+
+
+
+.Shop-Now
+{
+    padding: 3.2rem;
+}
+.Shop-now-link{
+
+    padding:1.6rem 3.2rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-radius: 100px;
+
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:1.6rem;
+
+    transition: all 0.3s;
+
+}
+.Shop-now-link:link,
+.Shop-now-link:visited{
+    color:#fff;
+    
+
+    /* Open colors */
+    background-color: #117420; 
+}
+
+.Shop-now-link:hover,
+.Shop-now-link:active{
+
+    /* Green 5 */
+    background-color: #51cf66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Popular products  */
+.Section--pop-pro{
+
+
+    padding:0 4.4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    margin:8.8rem auto 0 auto;
 }
