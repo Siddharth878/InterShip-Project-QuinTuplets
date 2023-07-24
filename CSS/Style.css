@@ -1,0 +1,132 @@
+/*HEADER //////////////////////////*/
+
+.Header
+{
+
+    font-size:1.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:4.4rem;
+
+
+    max-width: 140rem;
+    margin:0 auto;
+    margin-top: 1.8rem;
+
+    margin-bottom: 2.4rem;
+
+
+
+}
+
+.Main-nav{
+    padding:1.8rem 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.6rem;
+}
+.Main-nav-list{
+
+    list-style: none;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.4rem;
+}
+.Main-nav-link{
+    transition: all 0.3s;
+}
+.Main-nav-link:link,
+.Main-nav-link:visited{
+
+    text-decoration: none;
+    color:var(--Primary-font);
+}
+.Main-nav-link:hover,
+.Main-nav-link:active{
+    
+    text-decoration: none;
+    color:var(--Secondary-font);
+}
+.Main-nav-link::after
+{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: var(--Secondary-font);
+    transition:width 0.3s;
+}
+.Main-nav-link:hover:after
+{
+    width: 100%;
+    transition: width 0.3s;
+}
+
+
+.plant-logo{
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.plant-logo:link,
+.plant-logo:visited{
+    color: var(--Primary-font);
+}
+.plant-logo:hover,
+.plant-logo:active{
+    color: var(--Secondary-font);
+
+}
+
+
+
+
+
+.second-nav-ele
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.2rem;
+
+}
+.Search-form{
+    /*padding: 2.4rem;*/
+    font-size:1.8rem;
+    border-radius: 5px;
+}
+input[type=text]
+{
+    font-size: 1.8rem;
+    padding: 1.2rem 6.4rem;
+
+    border: none;
+    /*border-radius: 5px;*/
+    /*box-shadow:0 1.2rem 0.8rem rgba(0,0,0,0.11);*/
+}
+
+.Search-button{
+
+    cursor: pointer;
+    padding:1.6rem;
+    background:none;
+    border: none;
+}
+.Search-logo{
+
+    height: 2.4rem;
+    width: 2.4rem;
+    color: var(--Secondary-font);
+}
+.Cart-logo{
+
+    height: 3.2rem;
+    width: 3.2rem;
+    color: var(--Secondary-font);
+}
