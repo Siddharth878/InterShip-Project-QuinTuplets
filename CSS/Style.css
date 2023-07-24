@@ -130,3 +130,43 @@ input[type=text]
     width: 3.2rem;
     color: var(--Secondary-font);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section hero  */
+.Section--hero
+{
+    background-image: url("../IMG/Hero-section.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height :100%;
+    margin:0 auto;
+}
+.hero-main
+{
+
+    padding:4.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
