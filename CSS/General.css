@@ -31,7 +31,7 @@ MAIN COLOR:
 GREY COLOR:
 
 -Primary:  #ffffff
--Tints:
+-Tints:  https://yeun.github.io/open-color/#orange
 -Shades:
 -Accents:
 -Greys:
@@ -81,7 +81,6 @@ html {
 body{
     font-family: 'Inter Tight', sans-serif;
     color:var(--Primary-font);
-
 }
 
 h3{

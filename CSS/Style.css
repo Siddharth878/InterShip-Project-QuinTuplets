@@ -157,7 +157,7 @@ input[type=text]
     background-image: url("../IMG/Hero-section.jpg");
     background-repeat:no-repeat;
     background-size: cover;
-    height :100%;
+    height :70vh;
     margin:0 auto;
 }
 .hero-main
@@ -168,5 +168,32 @@ input[type=text]
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    color: #ffe8cc !important;
 
+}
+
+
+.Intro-head{
+    padding:11.2rem;
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Intro-hero-head{
+
+    
+    font-size:11.2rem;
+    Font-weight:bold;
+    line-height: 1.1;
+    letter-spacing: -0.75px;
+}
+.Intro-hero-desc{
+    font-size: 3.2rem;
+    letter-spacing: 0.5px;
+    font-weight:600;
+    line-height: 1.4;
 }
