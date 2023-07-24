@@ -1,133 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@400;500;600;700;800;900&family=Italiana&family=+Sans:wght@100;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href = "CSS/General.css">
-    <link rel="stylesheet"  type="text/css" href="CSS/Style.css">
-    
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:wght@400;500;600;700;800;900&family=Italiana&family=+Sans:wght@100;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="CSS/General.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css" />
 
     <!--    IONICON-->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <!--    SElF modules-->
     <script defer src="SCRIPTS/scripts.js"></script>
+  </head>
 
 
-</head>
 
-<body>
+
+
+
+
+
+  <body>
+
+
+
+
+
+
+
+    
     <header class="Header">
-        <nav class="Main-nav">
-            <a class="veggie-logo" href="veggie-logo">
-                <div class = "veggie-logo-cont">
-                    <img class = "veggie-logo-img" src = "IMG/veggie-logo.png"/>
-                    <p>veggiehub</p>
-                </div>
-                
-            </a>
+      <nav class="Main-nav">
+        <a class="veggie-logo" href="veggie-logo">
+          <div class="veggie-logo-cont">
+            <img class="veggie-logo-img" src="IMG/veggie-logo.png" />
+            <p>veggiehub</p>
+          </div>
+        </a>
 
+        <ul class="Main-nav-list">
+          <li class="Main-nav-item">
+            <a class="Main-nav-link" href="#Shop">Shop</a>
+          </li>
+          <li class="Main-nav-item">
+            <a class="Main-nav-link" href="#Featured">Featured</a>
+          </li>
+          <li>
+            <a class="Main-nav-link" href="#About-us">About us</a>
+          </li>
+          <li class="Main-nav-item">
+            <a class="Main-nav-link" href="#Contact-us">Contact Us</a>
+          </li>
+        </ul>
+        <div class="second-nav-ele">
+          <form class="Search-form">
+            <input type="text" placeholder="Search !" />
+            <button class="Search-button">
+              <ion-icon class="Search-logo" name="search-outline"></ion-icon>
+            </button>
+          </form>
 
-            <ul class="Main-nav-list">
-                <li class="Main-nav-item">
-                    <a class="Main-nav-link" href="#Shop">Shop</a>
-                </li>
-                <li class="Main-nav-item">
-                    <a class="Main-nav-link" href="#Featured">Featured</a>
-                </li>
-                <li>
-                    <a class="Main-nav-link" href="#About-us">About us</a>
-                </li>
-                <li class="Main-nav-item">
-                    <a class="Main-nav-link" href="#Contact-us">Contact Us</a>
-                </li>
-            </ul>
-            <div class="second-nav-ele">
-                <form class="Search-form">
-                    <input type="text" placeholder="Search !">
-                    <button class="Search-button">
-                        <ion-icon class="Search-logo" name="search-outline"></ion-icon>
-                    </button>
-                </form>
-
-                <div class="Cart">
-                    <ion-icon class="Cart-logo" name="cart-outline"></ion-icon>
-                </div>
-            </div>
-        </nav>
+          <div class="Cart">
+            <ion-icon class="Cart-logo" name="cart-outline"></ion-icon>
+          </div>
+        </div>
+      </nav>
     </header>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- SECTION Hero  -->
-     <section class = "Section--hero container">
-         <div class = "hero-main">
-             <div class = "Intro-head">
-                <p class = "Intro-hero-head">
-                    वेजी हब <span style = "color: black;">.</span>
-                </p>
-                <div class = "Intro-hero-desc">
-                    Now get your vegetables at your doorstep
-                </div>
-             </div>
-             <div class = "Shop-Now">
-                <a  class = "Shop-now-link" href = "#" >
-                    <p> SHOP NOW !</p>
-                    
-                </a>
-    
-              </div>
-         </div>
-     </section>
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-     <!-- SECTION Popular products -->
-     <div class = "Section--pop-pro container">
-        <h3 class = "heading--primary">
-            Popular Products
-        </h3>
-    </div>
-    <section class = "popular-products">
-         <img class = "pop-pro-img" src="IMG/pears.jpg" />
-         <img  class = "pop-pro-img"  src="IMG/orange.jpg" />
-         <img class = "pop-pro-img"  src="IMG/tomato.jpg" />
-         <img class = "pop-pro-img"  src="IMG/capsicum.jpg" />
-         <img class = "pop-pro-img"  src="IMG/tomato.jpg" />
+    <section class="Section--hero container">
+      <div class="hero-main">
+        <div class="Intro-head">
+          <p class="Intro-hero-head">
+            वेजी हब <span style="color: black">.</span>
+          </p>
+          <div class="Intro-hero-desc">
+            Now get your vegetables at your doorstep
+          </div>
+        </div>
+        <div class="Shop-Now">
+          <a class="Shop-now-link" href="#">
+            <p>SHOP NOW !</p>
+          </a>
+        </div>
+      </div>
     </section>
-    </body>
 
 
 
 
 
-    
+
+
+
+
+
+
+
+
+    <!-- SECTION Popular products -->
+    <div class="Section--pop-pro container">
+      <h3 class="heading--primary">Popular Products</h3>
+    </div>
+    <section class="popular-products">
+      <img class="pop-pro-img" src="IMG/pears.jpg" />
+      <img class="pop-pro-img" src="IMG/orange.jpg" />
+      <img class="pop-pro-img" src="IMG/tomato.jpg" />
+      <img class="pop-pro-img" src="IMG/capsicum.jpg" />
+      <img class="pop-pro-img" src="IMG/tomato.jpg" />
+    </section>
+
+
+
+
+
+
+
+
+
 
 
     <section class = "section-feature">
         
     </section>
+  </body>
+
+
+
+
+    
+
+
+    
     
 
 
@@ -135,3 +173,6 @@
 
   
 </html>
+ 
+
+
