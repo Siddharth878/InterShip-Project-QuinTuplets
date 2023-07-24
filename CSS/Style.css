@@ -6,9 +6,9 @@
     font-size:1.6rem;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap:4.4rem;
+    /* gap:4.4rem; */
 
 
     max-width: 140rem;
@@ -22,11 +22,11 @@
 }
 
 .Main-nav{
-    padding:1.8rem 1.6rem;
+    padding:1.8rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap:1.6rem;
+    gap:8.8rem;
 }
 .Main-nav-list{
 
@@ -68,20 +68,33 @@
 }
 
 
-.plant-logo{
+.veggie-logo{
     font-size: 3.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s;
 }
-.plant-logo:link,
-.plant-logo:visited{
+.veggie-logo:link,
+.veggie-logo:visited{
     color: var(--Primary-font);
 }
-.plant-logo:hover,
-.plant-logo:active{
+.veggie-logo:hover,
+.veggie-logo:active{
     color: var(--Secondary-font);
 
+}
+.veggie-logo-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right:5.4rem;
+
+    
+}
+.veggie-logo-img{
+    height: 9.6rem;
+    width: 9.6rem;
 }
 
 
