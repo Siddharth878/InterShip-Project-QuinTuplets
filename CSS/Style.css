@@ -286,3 +286,16 @@ input[type=text]
     font-weight: 700;
     margin:8.8rem auto 0 auto;
 }
+.popular-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.4rem;
+    padding: 6.4rem;
+
+}
+.pop-pro-img{
+    height:400px;
+    width:250px;
+    border-radius: 5px;
+}
