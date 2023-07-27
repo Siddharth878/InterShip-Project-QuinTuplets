@@ -429,6 +429,180 @@ input[type="text"] {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.app {
+  margin:0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #fbfbfb;
+
+  
+}
+.app-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.4rem 0;
+  
+  font-size: 2.4rem;
+
+}
+
+.app-desc {
+
+
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+.abcd-mehta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:2.4rem;
+}
+.post-app-desc{
+
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color:#555;
+}
+.app-store-info{
+  padding-left: 6.2rem;
+  margin-left: 110px;
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:5.2rem;
+  
+}
+.i-image{
+  width: 80%;
+  height: auto;
+
+}
+.app-image-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+
+.Download-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2.4rem;
+}
+
+
+.apples-store-icon,.google-store-icon {
+  padding: 3.2rem;
+}
+.apple-store-link,.google-store-link {
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-radius:12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  transition: all 0.3s;
+  color: #fbfbfb;
+}
+
+.google-store-link:link,
+.google-store-link:visited {
+  /* Open colors */
+  background-color: #52140e;
+}
+
+.google-store-link:hover,
+.google-store-link:active {
+  /* Green 5 */
+  background-color: rgba(133, 27, 27, 0.719);
+}
+
+.apple-store-link:link,
+.apple-store-link:visited {
+  /* Green 5 */
+  background-color: rgba(133, 27, 27, 0.719);
+}
+
+.apple-store-link:hover,
+.apple-store-link:active {
+  /* Green 5 */
+  background-color: #52140e;
+}
+.app-link{
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer Section */
 
 .row {
@@ -451,7 +625,7 @@ ul {
 }
 .footer {
   background-color: white;
-  padding: 7.2rem 0;
+  padding: 3.2rem 0;
 }
 
 .footer .container{
@@ -528,31 +702,6 @@ ul {
   height: 4.8rem;
   width: 4.8rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
